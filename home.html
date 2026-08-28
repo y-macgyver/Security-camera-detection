@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sentinel AI — Overview</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="app">
+<aside class="sidebar">
+<div class="brand">SENTINEL <span>AI</span>
+</div>
+<nav class="nav">
+<div class="nav-label">Workspace</div>
+<a class="active" href="home.html">◉ Overview</a>
+<a href="live.html">▣ Live monitoring</a>
+<a href="alerts.html">⚠ Alerts <b class="danger">3</b>
+</a>
+<a href="archive.html">◷ Archive</a>
+<div class="nav-label">System</div>
+<a href="settings.html">⚙ Settings</a>
+</nav>
+<div class="user">
+<strong>Operator account</strong>Control room · Online</div>
+</aside>
+<main class="main">
+<header class="topbar">
+<div>
+<div class="eyebrow">Security operations center</div>
+<h1>Overview</h1>
+</div>
+<div class="actions">
+<button class="btn">Export report</button>
+<a class="btn primary" href="live.html">Open live view</a>
+</div>
+</header>
+<section class="grid stats">
+<div class="card stat">
+<small>Active cameras</small>
+<strong>12 <span class="good">●</span>
+</strong>
+</div>
+<div class="card stat">
+<small>Open alerts</small>
+<strong class="danger">03</strong>
+</div>
+<div class="card stat">
+<small>Events today</small>
+<strong>148</strong>
+</div>
+<div class="card stat">
+<small>System health</small>
+<strong class="good">99.8%</strong>
+</div>
+</section>
+<section class="grid dashboard">
+<div class="card">
+<h2>Camera 01 · Main office <span class="good">● LIVE</span>
+</h2>
+<div class="video-wrap">
+<video data-footage controls muted loop playsinline>
+</video>
+</div>
+<div class="video-meta">
+<span>1080p · Motion detection enabled</span>
+<span data-now>
+</span>
+</div>
+</div>
+<div class="card">
+<h2>Recent activity</h2>
+<div class="feed-list">
+<a class="feed" href="alerts.html">
+<span>
+<strong>Unrecognized person</strong>
+<small>Camera 04 · Loading bay</small>
+</span>
+<span class="danger">HIGH</span>
+</a>
+<a class="feed" href="alerts.html">
+<span>
+<strong>Door held open</strong>
+<small>Camera 09 · East entrance</small>
+</span>
+<span class="warn">MED</span>
+</a>
+<a class="feed" href="archive.html">
+<span>
+<strong>Vehicle detected</strong>
+<small>Camera 02 · Parking lot</small>
+</span>
+<span>LOW</span>
+</a>
+</div>
+<a class="btn" style="display:block;text-align:center;margin-top:18px" href="alerts.html">View all events</a>
+</div>
+</section>
+</main>
+</div>
+<nav class="mobile-nav">
+<a class="active" href="home.html">◉<br>Overview</a>
+<a href="live.html">▣<br>Live</a>
+<a href="alerts.html">⚠<br>Alerts</a>
+<a href="settings.html">⚙<br>Settings</a>
+</nav>
+<script src="app.js">
+</script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sentinel AI — Live monitoring</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="app">
+<aside class="sidebar">
+<div class="brand">SENTINEL <span>AI</span>
+</div>
+<nav class="nav">
+<div class="nav-label">Workspace</div>
+<a href="home.html">◉ Overview</a>
+<a href="live.html">▣ Live monitoring</a>
+<a href="alerts.html">⚠ Alerts</a>
+<a href="archive.html">◷ Archive</a>
+<div class="nav-label">System</div>
+<a href="settings.html">⚙ Settings</a>
+</nav>
+<div class="user">
+<strong>Operator account</strong>Control room · Online</div>
+</aside>
+<main class="main">
+<header class="topbar">
+<div>
+<div class="eyebrow">Sentinel AI</div>
+<h1>Live monitoring</h1>
+</div>
+<a class="btn primary" href="home.html">Dashboard</a>
+</header>
+<section class="grid dashboard">
+<div class="card">
+<h2>Camera 01 · Main office <span class="good">● LIVE</span>
+</h2>
+<div class="video-wrap">
+<video data-footage controls autoplay muted loop playsinline>
+</video>
+</div>
+</div>
+<div class="card">
+<h2>Camera feeds</h2>
+<div class="feed-list">
+<a class="feed" href="live.html">
+<span>
+<strong>Main office</strong>
+<small>Camera 01 · Selected</small>
+</span>
+<span>1080p</span>
+</a>
+<a class="feed" href="archive.html">
+<span>
+<strong>Parking lot</strong>
+<small>Camera 02</small>
+</span>
+<span>720p</span>
+</a>
+<a class="feed" href="alerts.html">
+<span>
+<strong>Loading bay</strong>
+<small>Camera 04</small>
+</span>
+<span class="danger">1 alert</span>
+</a>
+</div>
+</div>
+</section>
+</main>
+</div>
+<nav class="mobile-nav">
+<a href="home.html">◉<br>Overview</a>
+<a href="live.html">▣<br>Live</a>
+<a href="alerts.html">⚠<br>Alerts</a>
+<a href="settings.html">⚙<br>Settings</a>
+</nav>
+<script src="app.js">
+</script>
+</body>
+</html>
